@@ -56,43 +56,9 @@ The Parking Space Exchange platform has extensive potential for growth and enhan
 contract id:ST6DK4Q1HDPYVV1Z1B1M9Z05P822BD63D3Z6P43A.ParkingSpaceExchange
 ![alt text](image.png)
 
-### Mainnet
-- **Contract Address**: `[To be added]`
-- **Contract Name**: `[To be added]`
-- **Deployment Transaction**: `[To be added]`
-
-### Testnet
-- **Contract Address**: `[To be added]`
-- **Contract Name**: `[To be added]`
-- **Deployment Transaction**: `[To be added]`
-
-### Contract Functions
-
-#### Core Functions
-1. **list-parking-space**: Allows users to list their parking spaces for rent
-2. **book-parking-space**: Enables renters to book available parking spaces
-
-#### Read-Only Functions
-- **get-parking-space**: Retrieve details of a specific parking space
-- **get-booking**: Get booking information by booking ID
-- **get-owner-earnings**: Check total earnings for a space owner
-- **get-next-space-id**: Get the next available space ID
-- **get-platform-fee**: Current platform fee percentage
-
-### Getting Started
-
-1. Deploy the contract to Stacks blockchain
-2. Initialize the contract with desired parameters
-3. Start listing parking spaces using `list-parking-space`
-4. Book available spaces using `book-parking-space`
-
-### Platform Economics
-
-- **Platform Fee**: 5% of each booking transaction
-- **Payment Method**: STX tokens
-- **NFT Representation**: Each parking space is represented as an NFT for ownership verification
 - **Automated Payments**: Smart contracts handle all payment distributions automatically
 
 ---
+
 
 *For technical support, integration assistance, or partnership inquiries, please refer to the project documentation or contact the development team.*
