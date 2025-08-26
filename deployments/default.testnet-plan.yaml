@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: ParkingSpaceExchange
+            expected-sender: ST6DK4Q1HDPYVV1Z1B1M9Z05P822BD63D3Z6P43A
+            cost: 50260
+            path: "contracts\\ParkingSpaceExchange.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
